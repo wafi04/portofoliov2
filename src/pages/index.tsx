@@ -1,3 +1,14 @@
+import { NavbarLayout } from "@/layouts/NavbarLayout";
+
 export default function Home() {
-  return <>main</>;
+  return (
+    <>
+    <NavbarLayout />
+    <main>
+      <section className="">
+        kakakka
+      </section>
+    </main>
+    </>
+  )
 }
